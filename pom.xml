@@ -13,19 +13,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot3-jsp-jar</name>
     <description>springboot3-jsp-jar</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
+    <packaging>jar</packaging>
+
     <properties>
         <java.version>17</java.version>
     </properties>
