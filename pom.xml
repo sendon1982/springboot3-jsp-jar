@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot3-jsp-jar</name>
     <description>springboot3-jsp-jar</description>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <properties>
         <java.version>17</java.version>
@@ -48,18 +48,21 @@
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
         </dependency>
 
         <!-- These 2 are required for Tomcat 10.1.x -->
         <dependency>
             <groupId>jakarta.servlet.jsp.jstl</groupId>
             <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <scope>provided</scope>
             <version>3.0.2</version>
         </dependency>
 
         <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <scope>provided</scope>
             <version>3.0.0</version>
         </dependency>
         <!-- ++++++++++++++++++++++++++++++++++++++++-->
